@@ -90,6 +90,4 @@ concommand.Add( "restartserver", function( ply, cmd, args )
 	end
 end)
 
-if SERVER then 
 RunConsoleCommand("sv_hibernate_think", 1)
-end
